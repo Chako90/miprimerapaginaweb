@@ -64,6 +64,15 @@ h1.titular{
     background-color: inherit;
 }
 
+/*Cuerpo*/
+
+.greeting{
+    color: #407fc7;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 body{
     background-color: rgb(39, 39, 39); 
 }
