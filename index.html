@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial scale=1.0" />
+        <title>Portafolio Isaac Salas - Diseñador UI/UX</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+        <script src="script.js" defer></script>
+    </head>
+<body>
+    <header>
+        <div class="titlenav">
+            <h1 class="titular">Isaac Salas Diseño</h1>
+            <nav>
+                <input type="checkbox" id="check" />
+                    <label for="check" class="checkbtn">
+                     <i class="fa-solid fa-bars"></i>
+                    </label>
+                <ul class="menu">
+                    <li class="boton"><a href="trabajos.html"></a>Trabajos</li>
+                    <li class="boton"><a href="clientes.html"></a>Clientes</li>
+                    <li class="boton"><a href="Contacto"></a>Contacto</li>
+                </ul>
+            </nav>
+        </div>
+        <img class="banner" src="img/banner.png" alt="UI design">
+    </header>
+    <div class="contenido">
+        <div class="extracto">
+            <h2>Sobre mí</h2>
+            <p class="parrafo1">Hola! Soy Isaac, diseñador gráfico, más recientemente UI/UX y en éstos momentos convirtiendome en un front End.
+                Mira mis proyectos y conoce lo que me apasiona. Me gusta el gimnasio, las caminatas y la luna, el frío, los atardeceres y las montañas, pero mi actividad favorita siempre será comer.
+                Me da mucha curiosidad lo que piensan las personas, y por ello me gusta investigar, conocer sus puntos de dolor y ver como podemos en equipo, ofrecer una solución para ese problema.</p>
+        </div>
+        <h2>Trabajos</h2>
+        <div class="trabajosgroup">
+            <div class="trabajos">
+                <h3>Diseño Poster</h3>
+                <img class="Trabajo" src="img/barion.png" alt="Welcome to Barion">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptatum incidunt dolore provident neque itaque, sed laudantium, esse facere ut tempore vel cum! Nihil saepe commodi sequi non voluptas odit.</p>
+            </div>
+            <div class="trabajos">
+                <h3>Diseño Poster</h3>
+                <img class="Trabajo" src="img/drive.png" alt="Drive Safe">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis velit odit blanditiis ad modi, porro aut soluta corrupti incidunt molestias ab illo repellat facilis accusantium! Voluptas nisi velit praesentium magni?</p>
+            </div>
+        </div>
+    </div> 
+    <Footer>
+        <form action="" method="get" class="formulario">
+            <div class="form-row">
+                <label for="nombre">Nombre</label>
+                <input id="nombre" name="nombre" type="text" />
+                </div>
+            <div class="form-row">
+                <label for="email">Email</label>
+                <input  
+                id="email"
+                name="email"   
+                type="email"
+                placeholder="correo@dominio.com"
+                required
+                s/>
+            </div>    
+            <div class="form-row">
+                <label for="mensaje">Mensaje</label>      
+                <textarea id="mensaje" name="mensaje"></textarea>      
+            </div>
+            <div class="form-row">
+                <button>Enviar</button>
+            </div>
+            <p class="alertas" id="alertas"></p>
+            <script src="script.js"></script>
+        </form>
+        <ul class="redes">
+            <li><a href="https://wa.me/150684146536"><img src="img/Whatsapp.png" alt=""></a></li>
+            <li><a href="https://www.linkedin.com/in/chakoss90/"><img src="img/LinkedIn.png" alt=""></a></li>
+            <li><a href="https://www.instagram.com/chakocheesychimichanga/"><img src="img/Instagram.png" alt="" srcset=""></a></li>
+        </ul>
+        <p class="creditos">Creado por Isaac Salas</p>
+    </Footer>
+</body>
+</html>
